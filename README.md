@@ -19,3 +19,7 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
+5. start web server to serve http page to redirect to hosted checkout 
+```
+python3 -m http.server  8090
+```

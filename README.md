@@ -1,7 +1,7 @@
 1. create virtual env
 
 ```
-python -m venv venv
+python3 -m venv venv
 ```
 
 2. activate virtual environment
@@ -19,3 +19,7 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
+5. start web server to serve http page to redirect to hosted checkout 
+```
+python3 -m http.server  8090
+```
